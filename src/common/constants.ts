@@ -65,6 +65,9 @@ export const DEFAULT_TESTNET_SERVER =
   process.env.NEXT_PUBLIC_TESTNET_API_SERVER ||
   'https://mocknet-api.bootcamp.stacksmena.org';
 
+export const DEFAULT_MOCKNET_SERVER =
+  'https://mocknet-api.bootcamp.stacksmena.org';
+
 export const DEFAULT_MAINNET_SERVER =
   NEXT_PUBLIC_MAINNET_API_SERVER ||
   process.env.NEXT_PUBLIC_MAINNET_API_SERVER ||
@@ -78,11 +81,15 @@ export const DEFAULT_NETWORK_INDEX = DEFAULT_MAINNET_INDEX;
 
 export const DEFAULT_NETWORK_LIST = [
   {
-    label: 'stacks.co',
+    label: 'mainnet',
     url: DEFAULT_MAINNET_SERVER,
   },
   {
-    label: 'stacks.co',
+    label: 'testnet',
+    url: DEFAULT_TESTNET_SERVER,
+  },
+  {
+    label: 'mocknet',
     url: DEFAULT_TESTNET_SERVER,
   },
   {
