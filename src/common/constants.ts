@@ -63,7 +63,7 @@ export const CONNECT_AUTH_ORIGIN =
 export const DEFAULT_TESTNET_SERVER =
   NEXT_PUBLIC_TESTNET_API_SERVER ||
   process.env.NEXT_PUBLIC_TESTNET_API_SERVER ||
-  'https://mocknet-api.bootcamp.stacksmena.org';
+  'https://stacks-node-api.xenon.blockstack.org';
 
 export const DEFAULT_MOCKNET_SERVER =
   'https://mocknet-api.bootcamp.stacksmena.org';
