@@ -90,7 +90,7 @@ export const DEFAULT_NETWORK_LIST = [
   },
   {
     label: 'mocknet',
-    url: 'https://mocknet-api.bootcamp.stacksmena.org/',
+    url: 'https://mocknet-api.bootcamp.stacksmena.org',
   },
   {
     label: 'localhost',
